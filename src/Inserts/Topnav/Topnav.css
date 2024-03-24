@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
+nav li{
+ display: inline-block;
+ margin:-62px 40px;
+ justify-content: center;
+}   
+#h{
+    display: inline-block;
+        position: fixed;
+        background-color: aliceblue;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 65px;
+        top: 0px;
+        z-index: 1000;
+        padding-top: 15px;
+        }
+        .n1{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600!important;
+        letter-spacing: .02857em;
+        justify-content: center;
+        position: relative;
+        top: -25px;
+        color: rgb(78, 5, 146);
+        }
+        #spann{
+            position: relative;
+            left: 5px;
+            top: -2px;
+            letter-spacing: 1.2px;  
+            color: rgb(68, 6, 125);
+        }
+        .n1:hover,#spann:hover{
+            color: #7db9b6;
+        }
+        .dia{
+        cursor: pointer;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 40px;
+        }
+   
+        .colide{
+            text-decoration: none;
+            margin-top: 10px;
+            position: relative;
+            top: 20px;
+        }    
+          
+        .colide #ja{
+        font-size: 2rem;
+        line-height: 1;
+        font-family:'Fasthand','cursive';
+        font-weight: 100;
+        text-decoration: none;
+        position: relative;
+        top: -15px;
+        }
+        .colide #bo{
+        font-size: .8rem;
+        font-family: 'Fasthand','cursive';
+        margin-left:40px;
+        font-weight: 100;
+        text-decoration: none;
+        position: relative;
+        top: -30px;
+        left: 10px;
+        }
+       .mobile-menu ul{
+            list-style: none;
+            display: flex;
+        }
+        .mobile-menu li{
+            cursor: pointer;
+        }
+        .hamburger-menu{
+            flex-direction: column;
+            cursor: pointer;
+            display: none;
+        }
+        .menu-line{
+            height: 4px;
+            width: 25px;
+            background-color: rgb(66, 41, 41);
+            margin: 2px 0;
+            position: relative;
+            top: 10px;
+        }
+        .n1.active,
+       .active #spann {
+          color: #7db9b6;
+        }
+@media (max-width:900px){
+.list{
+    display: none;
+}
+#h{
+    display: fixed;
+}
+.logo{
+    display: flex;
+}
+.dia{
+    cursor: pointer;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+    #side-collide{
+position: relative;
+left:-35px;
+    }
+    .colide{
+        text-decoration: none;
+        margin-top: 10px;
+        position: relative;
+        top: 5px;
+        left: 15%;
+        justify-content: center;
+            text-align: center;
+    }        
+    .colide #ja{
+    font-size: 2rem;
+    line-height: 1;
+    font-family:'Fasthand','cursive';
+    font-weight: 100;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    }
+    .colide #bo{
+    font-size: .8rem;
+    font-family: 'Fasthand','cursive';
+    margin-left:40px;
+    font-weight: 100;
+    text-decoration: none;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    }
+.hamburger-menu{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.mobile-menu{
+    position: absolute;
+    top: 60px;
+    background-color: aliceblue;
+    padding: 5px;
+    left: -50px;
+    height: 470px;
+    padding-top: 40px;
+}
+.mobile-menu ul{
+padding: 0px;
+display: block;
+flex-direction: column;
+margin-top: -5px;
+line-height: 1em;
+text-align: start;
+}
+
+.mobile-menu li{
+margin-bottom: 20px;
+position: relative;
+left: 25px;
+top: -10px;
+margin-top: -40px;
+}
+}

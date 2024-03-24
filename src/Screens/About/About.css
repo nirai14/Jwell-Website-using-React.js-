@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.fire{
+    width: auto;
+    height: 100%;
+    margin-top: -110px;
+}
+.ab{
+    color: aliceblue;
+    text-align: start;
+    margin-top: 213px;
+    margin-left: -10px;
+}
+.ab>h1{
+    font-size: 55px;
+    font-weight: 500;
+    font-family:'dancing script','cursive';
+    padding-bottom:10px ;
+}
+.ab>h3{
+    font-weight: 500;
+    font-family: Neuton,serif;
+    position: relative;
+    top: -10px;
+    line-height: 1.2em;
+    font-size: 30px;
+    letter-spacing: .02em;
+}
+.why{
+    text-align: center;
+    background-color: #edeff1;
+    height: 350px;
+    position: relative;
+top: 150px;
+padding-top:50px ;
+padding-bottom: 300px;
+margin-top: -100px;
+justify-content: center;
+}
+
+.why>ul{
+    color: #707070;
+    font-family: Neuton,serif;
+font-weight: 300;
+font-size: 20px;
+justify-content: center;
+text-align: left;
+position: relative;
+left: 38%;
+}
+
+.why>h1{
+    font-weight: 600;
+    font-family: Neuton,serif;
+    letter-spacing: .1em;
+}
+.why>p{
+    font-size: 18px;
+    letter-spacing: .02em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    position: relative;
+    top: 2px;
+}
+
+.why ul li{
+    position: relative;
+    left: -45px;
+}
+.view{
+    background-color: #83578f;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    text-align: center;
+}
+
+.view:hover{
+    background-color: #6d9c99;
+}
+.team{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.team>h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: Neuton,serif;
+    letter-spacing:.1em;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.87);
+}
+.team>p{
+   margin: 0px 350px;
+   text-align: center;
+}
+.dp{
+    height: 205px;
+    align-items:center;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 75px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.dp:hover{
+    transform: scale(1.5);
+}
+.profile-flex{
+    display: flex;
+    margin: 15px 25px;
+    position: relative;
+    top: 200px;
+   margin-bottom: 300px;
+   justify-content: center;
+}
+
+.profiles{
+box-shadow: 2px 2px solid rgb(59, 6, 15);
+    margin: 2px 10px ;
+    text-align: start;
+ padding: 40px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 249, 249);
+    box-shadow: rgb(214, 214, 214) 1px 1px 10px 1px;
+}
+.profiles>p{
+color: #707070;
+}
+
+@media (max-width:800px){
+    .fire{
+        height: 570px;
+        width: auto;
+    }
+    .ab{
+margin-top: 250px;
+width: 100%;
+text-align: center;
+justify-content: center
+    }
+    .ab h1{
+        font-size:20px;
+    }
+    .ab h3{
+        font-size: 15px;
+        position: relative;
+        left: 100px;
+    }    
+    .why{
+        height: 100px;
+    }
+    .why h1{
+        font-size:20px ;
+        padding-bottom: 5px;
+    }
+    .why p{
+        font-size: 15px;
+    }
+    .why ul{
+        position: relative;
+        top: 10px;
+    }
+    .why ul li{
+        width: 450px;
+        padding-right: 50px;
+        margin-left: -100px;
+        font-size: 17px;
+    }
+    .view{
+        font-size: 15px;
+        padding: 5px;
+        width: 100px;
+        height: 45px;
+        position: relative;
+        top: 20px;
+    }
+    .team>p{
+       position: relative;
+       left: -340px;
+       width: 360px;
+     }
+     .profile-flex{
+       display:block ;
+     }
+     .profiles{
+        width: 270px;
+        position: relative;
+        left: 20px;
+        margin-bottom: 20px;
+        top: 20px;
+      
+     }
+     .profiles h3 ,.profiles p{
+        text-align: center;
+        position: relative;
+        top:-10px;
+     }
+}

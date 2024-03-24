@@ -1,0 +1,48 @@
+.violet{
+    background-color: #9f73ab;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    height: 330px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top:-25px ;
+
+    }
+    .violet h4{
+        position: relative;
+        left: 5px;
+        font-size: 22px;
+    }
+
+    .violet>h5{
+    color: rgba(255, 255, 60, 0.968);
+    padding: 0px 0px;
+    }
+    .violet>p{
+    margin: 0px 300px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 2em;
+    font-family: Neuton,serif;
+    text-align: center;
+    justify-content: center;
+    }
+    span{
+    font-weight: 900;
+    }
+    @media (max-width:800px){
+        .violet p{
+            position: relative;
+            left: -200px;
+            width: 45%;
+        }
+        .violet{
+            height: 530px;
+           padding: 45px 0px;
+        };
+        
+    }

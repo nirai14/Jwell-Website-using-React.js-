@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Neuton,serif;
+}
+
+.contactimage{
+    width: 100%;
+    height: 810px;
+    margin-top: -120px;
+}
+.contactimage1{
+    width: 100%;
+    height: 810px;
+    margin-top: -120px;
+}
+.ab {
+   position: absolute;
+   top: -5px;
+    color: aliceblue;
+    letter-spacing: .02em;
+    left: 5%;
+    width: 90%;
+    
+}
+.ab>h1{
+    font-size: 55px;
+    font-family:'dancing script','cursive';
+}
+.ab>h3{
+    font-family: Neuton,serif;
+    font-size: 24px;
+    width: 45%;
+    position: relative;
+    top: -30px;
+    letter-spacing: 0.04em;
+}
+
+.location{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(240, 237, 237);
+   width: 100%;
+   border-radius: 5px;
+   position: relative;
+   top: 10px;
+   line-height: 1.5em;
+   padding:50px 10px;
+
+}
+
+.location-flex{
+    display: flex;
+    gap: 20px;
+    margin: 0px 23px;
+}
+.location>h5{
+    color: #707070;
+    font-weight: 400;
+    font-family: Neuton,serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    margin-top: -22px;
+    width: 100%;
+    padding-left: 3px;
+ padding-bottom: 20px;
+}
+
+.location>h4{
+    color: #707070;
+    margin-top: -10px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    top: 2px;
+}
+
+.location>h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.location>h2:hover{
+color: rgb(114, 84, 114);
+
+}
+.send{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-top: -50px;
+    letter-spacing: .1em;
+}
+.send>p{
+    margin-top: -10px;
+    color:#8f8e8e ;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: .0001em;
+    position: relative;
+    top: 10px;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    left: 80px;
+    top: -30px;
+}
+
+.input-group {
+    flex: 2;
+    margin: 2px -5px;
+    display: flex;
+    flex-direction: column;
+    flex: 0  calc(35% - 10px);    
+}
+label{
+    margin-bottom: 5px;
+}
+
+.button{
+    text-align: center;
+}
+button{
+    background-color: #dfdddd;
+    color: #000;
+    font-size: 20px;
+    width: 150px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0px;
+    position: relative;
+    top: -20px;
+    left: 45px;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: rgb(135, 86, 135);
+}
+textarea{
+border:rgb(193, 153, 193) 1.5px solid ;
+height: 100px;
+width: 690px;
+margin-right: 70px;
+border-radius: 10px;
+position: relative;
+top: 10px;
+left: -30px;
+}
+.textarea label{
+    position: relative;
+    left: -30px;
+}
+.input-group label , .textarea{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+}
+.input-group input{
+    height: 40px;
+    border-radius: 10px;
+    border: rgb(193, 153, 193) 1.5px solid;
+    width: 70%;
+    margin-bottom: 5px;
+    background-color: white;
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+
+textarea{
+    padding-left:10px;
+    font-size: 16px;
+}
+
+
+@media (max-width: 800px) {
+.ab h1{
+font-size: 40px;
+position: relative;
+top: 70px;
+}
+.ab h3{
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    width: 310px;
+    left: 25px;
+}
+
+.contactimage{
+    height: 500px;
+
+}
+.contactimage1{
+    height: 630px;
+
+}
+.input-group {
+        flex: 1 1 100%;;
+        margin-left: 10px;
+    }
+
+.location-flex{
+        display: block;
+    }
+.location{
+        margin: 20px 0px;
+    }
+.send{
+        position: relative;
+        top: 70px;
+        font-size: 13px;
+    }
+.send p{
+        line-height: 1em;
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+        width: 340px;
+        left: 15px;
+    }
+
+.form{
+    position: relative;
+    top: 50px;
+    text-align: start;
+    left: 35px;
+    margin-bottom: 200px;
+}
+
+.textarea{
+    position: relative;
+    left: 15px;
+}
+textarea{
+    width: 260px;
+}
+.button{
+position: relative;
+top: -80px;
+left: -60px;
+}
+.button button{
+    width: 120px;
+    padding: 5px 0px;
+}
+}  
+  
+  
+  
+  

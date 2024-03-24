@@ -1,0 +1,144 @@
+  .line{
+    padding-left: 20px;
+  }
+  .foot>h4{
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Neuton,serif;
+  }
+  .diam{
+  margin-top:0px;
+  cursor: pointer;
+  height: 40px;
+}
+.h1{
+  display: flex;
+  padding: 0px 5px;
+}
+#ja{
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+  color: #4d455d;
+  font-family:'Fasthand','cursive';
+  text-align: start;
+  font-weight: 100;
+}
+#bo{
+  font-size: .8rem;
+  font-family: 'Fasthand','cursive';
+  margin-left: 5px;
+  font-weight: 100;
+  position: relative;
+  top: -5px;
+}
+.lastflex{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+  padding-left:40px;
+  padding-right: 30px;
+justify-content: center;
+  gap: 80px;
+  padding-top: 30px;
+
+  }
+  .explore{
+    margin-left:-30px;
+  }
+  h5{
+    padding-left: 40px;
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: Neuton,serif;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: .07em;
+  }
+  .address{
+    font-family: Neuton,serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2em;
+    letter-spacing: 0.00938em;
+  }
+  li{
+    line-height: 2.0;
+    letter-spacing: 0.00938em;
+    font-family: Neuton,serif;
+  }
+  ul{
+    list-style: none;
+  }
+  .emoji-bullet {
+    color: rgb(5, 5, 33); 
+    padding-right: 0.5rem;
+    position: relative;
+    top: 3px;
+    transform: rotate(45deg);
+}
+
+.logos{
+  font-size: 18px;
+position: relative;
+top: 5px;
+}
+  
+@media(max-width: 800px){
+  .lastflex{
+    display: block;
+    position: relative;
+    top:-130px;
+
+  }
+  .explore{
+    line-height: 2em;
+    position: relative;
+    top: -95px;
+  }
+  .explore h5{
+    position: relative;
+    top: 10px;
+    padding-bottom: 5px;
+  }
+  .address{
+    line-height: 2em;
+  }
+}
+/* footer */
+.foot{
+  display: flex;
+  gap: 20px;
+  background-color: #9f73ab;
+  color: #ffffff;
+  padding-left:40px ;
+padding: 15px 20px;
+}
+.line{
+  padding:0px 35px;
+
+}
+.foot>h4{
+  font-weight: 500;
+  font-size: 17px;
+  font-family: Neuton,serif;
+}
+@media(max-width: 800px){
+  footer{
+display: flex;
+position: relative;
+width: 100%;
+top: -130px;
+
+
+  }
+  .foot h4{
+    font-size: 15px;
+  }
+  .foot{
+    line-height: 1.5em;
+  padding-left: 30px;
+  }
+
+}

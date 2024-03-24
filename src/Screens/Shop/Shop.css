@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.last{
+    position: relative;
+    top: 1450px;
+}
+.shop{
+font-family:'dancing script','cursive';
+font-size: 60px;
+font-weight: 400;
+position: relative;
+top: -10px;
+}
+.para1{
+font-weight: 500;
+margin-top: -65px;
+font-family:  Neuton,serif;
+font-size: 25px;
+}
+.shopa{
+    text-align: center;
+    margin-top: -345px;
+    margin-bottom: 100px;
+    color: #ffff;
+}
+
+.sidebox h2{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom: -2px;
+  }
+  input{
+    border: none;
+    background-color: rgb(239, 236, 236);
+    border-radius: 0px;
+    width: 120px;
+    font-size: 15px;
+    height: 37px;
+      }
+      .fly{
+        background-color: rgb(170, 101, 170);
+        color: rgb(246, 246, 246);
+        border: none;
+        width: 35px;
+        position: relative;
+        padding-bottom: 20px;
+        padding-top: 5px;
+        font-size: 20px;
+        margin: 0px;
+        height: 37px;
+        border-radius: 0px;
+        left: 130px;
+        top: -37px;
+      }
+      .sidebox h2{
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+        bottom: -2px;
+      }
+     
+    .catogories{
+        line-height: 2.3em;
+    }
+    .catogories input{
+        height: 15px;
+        width: 15px;
+    }
+    .star h4{
+        color: #9f73ab;
+        position: relative;
+        top: 5px;
+    }
+    .star h2{
+        position: relative;
+        bottom: 5px;
+    }
+    .star{
+        position: relative;
+        left: 0px;
+        width: 200px;
+    }
+.box-flex{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.title{
+   padding: 0px 360px;
+   margin-top: 90px;
+   letter-spacing: .12em;
+   font-weight: 600;
+   font-size: 30px;
+   margin-bottom: 0px;
+
+}
+.right{
+    margin-left:50px ;
+    position: relative;
+    top: -120px;
+    left:-230px;
+   
+}
+.right h2{
+    position: relative;
+    top: -25px;
+}
+#rate{
+    position: relative;
+    left: 30px;
+}
+.ratee{
+    color: #9f73ab;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #e4e4e4;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 70px;
+    text-align: start;
+    position: relative;
+    top: 16px;
+    }
+    .ratee>h3{
+        color: black;
+       
+    }
+    .ratee>div{
+        display: flex;
+        margin-top: -15px;
+    }
+    .ratee>div>#rate{
+        width: 30%;
+        margin-left: auto;
+        font-size: 15px;
+    }
+    .dapa{
+        border: none;
+        box-shadow: 5px 5px 5px 5px rgb(235, 235, 235);
+margin: 0px 30px;
+border-radius: 10px;
+cursor: pointer;
+height: 350px;
+width: auto;
+position: relative;
+top: -20px;
+}
+    .jwel{
+        width: 100%;
+
+    }
+    .box-row1{
+        display: flex;
+        position: relative;
+        left: 200px;
+        
+    }
+    .sidebox{
+        width: 90px;
+        position: relative;
+        left: 40px;
+        top: -50px;
+
+    }
+   .star-line{
+position: relative;
+top: 15px;
+padding-bottom:25px ;
+
+   }
+ 
+@media (max-width:800px){
+    .sidebox{
+        display: none;
+    }
+    .right{
+        position: relative;
+        top: -10px;
+    }
+    .right h2{
+        position: relative;
+        left: -200px;
+        font-size: 30px;
+    }
+    .title{
+       margin-left:90px ;
+    }
+    .ratee{
+        position: relative;
+        top: 17px;
+    }
+
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+@media (max-width:800px){
+.gif{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -68px;
+}
+}
